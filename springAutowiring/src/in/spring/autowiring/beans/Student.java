@@ -21,12 +21,6 @@ public class Student {
 	public void setRollNo(int rollNo) {
 		this.rollNo = rollNo;
 	}
-	public Address getAddress() {
-		return address;
-	}
-	public void setAddress(Address address) {
-		this.address = address;
-	}
 	
 	public void display() {
 		System.out.println("name: " + name);
