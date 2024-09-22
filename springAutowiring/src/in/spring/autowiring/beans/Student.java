@@ -1,8 +1,12 @@
 package in.spring.autowiring.beans;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class Student {
 	private String name;
 	private int rollNo;
+	
+	@Autowired
 	private Address address;
 	
 	public String getName() {
